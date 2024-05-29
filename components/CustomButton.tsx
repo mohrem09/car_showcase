@@ -10,7 +10,7 @@ const CustomButton = ({ isDisabled, btnType, containerStyles, textStyles, title,
 
         <button
             disabled={false}
-            type={"button"}
+            type={btnType || "button"}
             className={`custom-btn ${containerStyles}`}
             onClick={handleClick}>
 
